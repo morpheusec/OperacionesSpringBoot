@@ -20,7 +20,9 @@ public class OperacionesApplication {
 		System.out.println("division de dos numeros 10 /2");
 		calculadora div = new calculadora(new division());	
 		div.calcularOperacion(10,2);
-		
+		System.out.println("exponente de dos numeros 12");
+		calculadora expo= new calculadora(new exponente());	
+		expo.calcularOperacion(10,2);
 	}
 		
 	
